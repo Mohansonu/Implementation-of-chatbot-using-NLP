@@ -1,0 +1,55 @@
+/* General body styling */
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Streamlit main content styling */
+.block-container {
+    background-color: #ffffff; /* White background for main content area */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+h1 {
+    text-align: left;
+    color: #6cc6de; /* Green color for title text */
+    font-family: 'Times New Roman', Times, serif; /* Changed to Times New Roman */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Sidebar styling */
+.sidebar .sidebar-content {
+    background-color: #f9f9f9; /* Light grey for sidebar */
+    border-right: 1px solid #ddd;
+}
+
+/* Input box styling */
+textarea, input[type="text"] {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Button styling */
+.stButton > button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.stButton > button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
